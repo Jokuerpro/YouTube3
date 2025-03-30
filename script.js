@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyCZ7QD3305A8Yii4N7MTDbhMArIMFMHibY'; // استبدل YOUR_API_KEY بمفتاح API الخاص بك
+const API_KEY = 'AIzaSyCZ7QD3305A8Yii4N7MTDbhMArIMFMHibY'; // أدخل مفتاح API هنا
 const searchButton = document.getElementById('search-button');
 const searchInput = document.getElementById('search-input');
 
@@ -26,4 +26,3 @@ function fetchVideoData(videoId) {
         })
         .catch(error => console.error('Error:', error));
 }
-
